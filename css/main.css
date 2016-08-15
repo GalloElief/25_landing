@@ -1,0 +1,71 @@
+/* Tu CSS va aqui */
+nav{
+	margin-top: 5%;
+	margin-bottom: 0%;
+ 	
+} 
+a {
+  padding: 0px 10px;
+  text-decoration: none;
+  color:#C9C9C9 ;
+  font-size: 18px;
+  font-weight: bold;
+ }
+ legend{
+ 	margin-left: 25%;
+ }
+
+.fondogris{
+	background-color: gray;
+	height: 400px;
+}
+.titulo{
+	margin:10% 10%;
+	color: #FFFFFF;
+}
+.fondoformulario{
+	background-color: #BDBDBD;
+	margin-top: 15%;
+	margin-left: 10%;
+	width: 270px;
+	height: 180px;
+	border-radius: 5%;
+
+}
+.enviar{
+	width: 230px;
+	height: 20px;
+	margin-left: 20px;
+	background-color:#2E9AFE;
+}
+.nombre, .email{
+	display: inline-block;
+	width: 230px;
+	height: 20px;
+	font-size:14px;
+	color:black;
+	margin-left: 20px;
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+.pies{
+  background-color: #FFFFFF;
+  padding: 5px;
+  padding-bottom: 200px;
+  width: 101.5%;
+  height: 50px;
+  color: gray;
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+img{
+	width: 30%;
+}
+@media (max-width: 535px) and (max-height: 824px){
+	.fondoformulario{
+		clear:both;
+	}
+	section .col-6{
+		width: 100%;
+	}
+}
